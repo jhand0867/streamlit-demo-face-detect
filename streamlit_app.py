@@ -7,7 +7,7 @@ import base64
 
 
 # Create application title
-st.title("OpenCV Deep Learning based Face Detection")
+st.title("AI based Face Detection")
 
 # List of example images
 example_images = [
@@ -17,7 +17,7 @@ example_images = [
 ]
 
 # Add a select box for examples
-example_selection = st.selectbox("Choose an example image:", ["None"] + example_images)
+example_selection = st.selectbox("Choose an example image:", ["None"] + example_images, help="Selecciona una imagen")
 
 # Function to load the DNN model.
 @st.cache_resource()
