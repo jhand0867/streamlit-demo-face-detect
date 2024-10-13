@@ -2,3 +2,7 @@ numpy
 streamlit
 opencv-python-headless
 pillow
+pandas
+time
+matplotlib
+
