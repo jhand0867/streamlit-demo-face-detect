@@ -98,7 +98,7 @@ placeholders[0].image(image, channels="BGR")
 placeholders[0].text("Input Image")
 
 # Create a Slider and get the threshold from the slider.
-conf_threshold = st.slider("SET Confidence Threshold", min_value=0.0, max_value=1.0, step=0.01, value=0.5)
+conf_threshold = st.slider("SET Confidence Threshold", min_value=0.0, max_value=1.0, step=0.001, value=0.5)
 
 # call the load_model function for model loading.
 net = load_model()
